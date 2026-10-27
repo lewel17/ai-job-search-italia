@@ -87,6 +87,15 @@ automatically from your Languages table above - don't duplicate them here. -->
 - [DEALBREAKER_1]
 - [DEALBREAKER_2]
 
+## Giro
+<!-- Settings for /giro, the daily search-and-apply round. Delete a line to use its default (see .claude/commands/giro.md). -->
+- **Priority market:** [YOUR_PRIORITY_COUNTRY] <!-- e.g. IT -->
+- **Other markets:** [OTHER_COUNTRIES_OR_CITIES] <!-- e.g. Barcelona, Madrid, Lugano/Ticino -->
+- **Applications per round:** 4
+- **Minimum score to prepare / to queue:** 60 / 50
+- **Needs visa sponsorship in:** [COUNTRIES] <!-- e.g. UK, US; leave empty if none -->
+- **CV photo:** [yes/no per market] <!-- default: yes for IT, ES, CH, DE, AT, FR; never for UK, IE, US -->
+
 ## Repo Structure
 - `cv/` - LaTeX CV variants (moderncv template, banking style)
 - `cover_letters/` - LaTeX cover letters (custom cover.cls template)
